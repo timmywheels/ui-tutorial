@@ -1,0 +1,93 @@
+/* CodeSnippet.io UI/UX & The Chrome Inspector Tutorial */
+
+body {
+    font-family: 'Nunito', sans-serif;
+    background-color: #f5f5f5;
+    height: 100vh;
+    background: url("http://bit.ly/ui-bg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.container {
+    width: 90%;
+    max-width: 500px;
+    margin: 20px auto;
+}
+
+.logo {
+    width: 200px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+#client-list-ul {
+    min-width: 500px;
+    background-color: #fffbfb;
+    padding: 20px 20px 5px;
+    margin: 20px 10px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 20px #d3d1dd;
+}
+
+#client-list-ul li {
+    margin-bottom: 10px;
+    border-bottom: 2px solid #f5f5f5;
+    list-style: none;
+}
+
+#client-list-ul li:last-child {
+    border-bottom: none;
+}
+
+li div {
+    display: inline-block;
+}
+
+.ticker {
+    background: #7360db;
+    padding: 2px 10px;
+    padding: 6px;
+    border-radius: 30px;
+    font-weight: 700;
+    color: #fff;
+    width: fit-content;
+    min-width: 75px;
+    display: inline-block;
+    text-align: center;
+    margin-right: 20px;
+    font-size: 14px;
+    margin-bottom: 20px;
+    box-shadow: 0px 2px 5px #ac9dff;
+    border-bottom: 4px solid #6353b9;
+
+}
+
+.client,
+.price {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #777;
+    font-size: 12px;
+}
+
+.price {
+    margin-left: 50px;
+    color: #fff !important;
+    font-weight: 700;
+    background: #45d372;
+    padding: 4px 8px;
+    border-radius: 4px;
+    float: right;
+    margin-right: 20px;
+    margin-top: 8px;
+    border-bottom: 2px solid #33a758;
+    transition: box-shadow .5s ease;
+}
+
+.price:hover {
+    border-bottom: 2px solid #33a758;
+    box-shadow: 3px 7px 15px #ddd;
+    transition: box-shadow .5s ease;
+}
